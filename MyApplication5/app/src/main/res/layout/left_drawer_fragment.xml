@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/left_bg"
+              android:background="@mipmap/left_bg_04">
+
+
+<LinearLayout
+    android:layout_marginLeft="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/left_top_hei"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.tiantian.news.view.CircleImageView
+        android:id="@+id/login_img"
+        android:layout_width="@dimen/left_top_img1_wid"
+        android:layout_height="@dimen/left_top_img1_hei"
+        android:src="@mipmap/right_navigation_head_default"/>
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_marginLeft="10dp"
+        style="@style/left_center_tv"
+        android:layout_width="@dimen/left_top_tv_wid"
+        android:layout_height="@dimen/left_top_tv_hei"
+        android:text="@string/left_tv_login"/>
+
+
+</LinearLayout>
+
+<TextView
+    android:layout_marginTop="@dimen/left_top_hei"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/left__honline"
+    android:background="@color/main_nav_horline"></TextView>
+
+
+
+
+
+<LinearLayout
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="@dimen/left_top_hei"
+    android:id="@+id/left_center_tv"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="阅读"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="评论"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="收藏"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="离线下载"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="消息推送"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/left_center_tv"
+            android:text="意见反馈"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <TextView
+
+        android:layout_below="@+id/left_center_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/left__honline"
+        android:background="@color/main_nav_horline">
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/left_center_tv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="61dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/tv_null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/left_center_tv"
+                android:text="无图模式"/>
+
+
+            <ImageView
+                android:id="@+id/img_null"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/icon_turn_off"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/tv_night"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/left_center_tv"
+                android:text="夜间模式"/>
+
+            <ImageView
+                android:id="@+id/theme_night"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/night_icon_turn_off"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="81dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/left__honline"
+        android:background="@color/main_nav_horline"/>
+
+
+<LinearLayout
+    android:layout_marginLeft="30dp"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/profile_action_set_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="设 置"
+        style="@style/left_center_tv"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

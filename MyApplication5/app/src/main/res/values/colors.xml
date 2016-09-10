@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7f3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="main_nav_all_bg">#d43d3d</color>
+    <color name="main_nav_add_bg">#7fd43d3d</color>
+    <color name="main_nav_horline">#f5d1d1</color>
+    <color name="main_nav_text_bg_normol">#D0D0D0</color>
+    <color name="main_nav_text_bg_select">#FFFFFF</color>
+    <color name="select_edit_line_color">#f77f7f</color>
+    <color name="content_nav">#3f4040</color>
+
+    <color name="lv_bottom_tx">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_dark">#f3f3f3</color>
+    <color name="gray_light">#cccccc</color>
+    <color name="gray">#777</color>
+    <color name="gray_dark">#383838</color>
+    <color name="green_light">#8e9ea4</color>
+    <color name="green">#34515c</color>
+    <color name="green_dark">#1e3e4a</color>
+    <color name="night_mask">#90000000</color>
+
+    <color name="dislike_bg_normal">#ff3e3e3e</color>
+    <color name="dislike_bg_pressed">#ff2b2b2b</color>
+    <color name="dislike_bg_normal_night">#ff666666</color>
+    <color name="dislike_bg_pressed_night">#ff505050</color>
+    <color name="dislike_line_color">#ff252525</color>
+    <color name="dislike_line_color_night">#ff000000</color>
+    <color name="activity_bg_color">#fff5f5f5</color>
+    <color name="ss_comment_time">#ff999999</color>
+
+
+    <color name="item_local">#ffffffff</color>
+    <color name="item_title_normal">#ff444444</color>
+    <color name="item_title_disabled">#ff888888</color>
+    <color name="item_abstract_normal">#ff444444</color>
+    <color name="item_abstract_disabled">#ff929292</color>
+    <color name="default_text_night">#ff747474</color>
+    <color name="white1">#ffffffff</color>
+    <color name="image_loading_bg">#ffefefef</color>
+    <color name="feed_hint_normal">#fff0f0f0</color>
+    <color name="feed_hint_normal_night">#ff252525</color>
+    <color name="feed_hint_pressed">#ffeaeaea</color>
+    <color name="feed_hint_pressed_night">#ff191919</color>
+    <color name="divider_day">#ffdddddd</color>
+    <color name="divider_night">#ff303030</color>
+
+
+
+</resources>

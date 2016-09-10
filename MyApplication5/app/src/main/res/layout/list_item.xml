@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newsbg_listpage" >
+
+
+    <RelativeLayout
+        android:id="@+id/lv_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+           android:id="@+id/item_tv_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="130dp"
+            android:text="我是标题"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        
+        
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+        
+        <com.tiantian.news.view.CircleImageView
+            android:id="@+id/author_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/item_tv_author"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="13dp"
+            android:text="我是作者"
+            android:textColor="@color/lv_bottom_tx"/>
+
+            <TextView
+                android:id="@+id/updata_time"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="几分钟前"
+                android:textColor="@color/lv_bottom_tx"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+      <ImageView
+          android:id="@+id/item_img_one"
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+          android:layout_width="100dp"
+          android:layout_height="80dp"
+          android:layout_marginRight="12dp"
+          android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/img_center"
+            android:layout_below="@+id/item_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:id="@+id/popicon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:duplicateParentState="false"
+            android:scaleType="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp"
+            android:src="@drawable/popicon_listpage"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

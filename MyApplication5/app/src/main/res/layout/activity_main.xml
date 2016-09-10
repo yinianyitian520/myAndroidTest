@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/main_nav"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_nav_all_he"
+        style="@style/main_nav_all">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            
+            
+            <com.tiantian.news.view.ColumnHorizontalScrollView
+                android:id="@+id/columnHorizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_nav_honscroll_he"
+                android:layout_marginRight="50.5dp"
+                android:scrollbars="none"
+                >
+                <LinearLayout
+                    android:id="@+id/RadioGroup_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+
+
+
+
+                </LinearLayout>
+
+
+            </com.tiantian.news.view.ColumnHorizontalScrollView>
+            
+            
+        </LinearLayout>
+        
+        
+<LinearLayout
+    android:id="@+id/main_add_bg"
+    android:layout_width="@dimen/main_nav_add_width"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:layout_width="@dimen/main_nav_verline_wid"
+        android:layout_height="@dimen/main_nav_verline_hei"
+        android:background="@color/main_nav_horline">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/main_add_img"
+        android:layout_width="@dimen/main_nav_add_img_wid"
+        android:layout_height="@dimen/main_nav_add_img_hei"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/main_nav_add_img"
+        />
+
+
+
+</LinearLayout>
+
+        
+        
+        
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

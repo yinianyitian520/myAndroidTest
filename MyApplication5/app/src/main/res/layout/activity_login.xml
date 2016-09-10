@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cinema_icon_phone"
+            android:layout_marginTop="10dp"
+            />
+
+        <com.tiantian.news.utils.EditTextWithDel
+
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="手机号/邮箱/用户名"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cinema_icon_password"
+            android:layout_marginTop="10dp"
+            />
+
+        <com.tiantian.news.utils.EditTextWithDel
+
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="密码"
+            android:inputType="textPassword"/>
+
+
+        <ImageView
+            android:id="@+id/pswd_img"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-110dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/pswd_normol"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        >
+
+
+        <TextView
+            android:id="@+id/login_rigister"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/main_nav_all_bg"
+            android:text="注册"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/white1"
+            />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/main_nav_all_bg"
+            android:text="登录"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/white1"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="0dp"
+            android:text="其他方式登录"
+            android:gravity="center"
+            />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:background="@mipmap/cinema_share_qq_p"
+            />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="270dp"
+            android:background="@mipmap/cinema_share_weixin_p"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

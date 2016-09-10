@@ -1,0 +1,98 @@
+[
+    {
+        "outputFile": "E:\\android-studio\\MyApplication\\library_SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "E:\\android-studio\\MyApplication\\library_SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\android-studio\\MyApplication5\\library_SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "E:\\android-studio\\MyApplication5\\library_SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Android-studio\\MyApplication5\\library_SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "D:\\Android-studio\\MyApplication5\\library_SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\MyApplication\\library_SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 42,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "C:\\MyApplication\\library_SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 42,
+                        "endOffset": 941
+                    }
+                }
+            }
+        ]
+    }
+]

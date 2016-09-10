@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cinema_icon_phone"
+            android:layout_marginTop="10dp"
+            />
+
+        <com.tiantian.news.utils.EditTextWithDel
+
+            android:id="@+id/phone_nember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="手机号"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cinema_icon_password"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/phone_pswd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="密码"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="165dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cinema_icon_verification_code"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/yanzheng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="验证码"/>
+
+
+
+        <TextView
+            android:id="@+id/get_yanzheng"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-120dp"
+            android:text="获取验证码"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:background="@color/main_nav_all_bg"
+            android:layout_marginTop="3dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        >
+
+
+        <TextView
+            android:id="@+id/phone_go"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/main_nav_all_bg"
+            android:text="登陆"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/white1"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="0dp"
+            android:text="其他方式注册"
+            android:gravity="center"
+            />
+
+
+        <ImageView
+            android:id="@+id/register_shouji"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:background="@mipmap/cinema_share_qq_p"
+            />
+
+        <ImageView
+            android:id="@+id/register_emailandtian"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="270dp"
+            android:background="@mipmap/icon"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
